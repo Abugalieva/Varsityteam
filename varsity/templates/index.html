@@ -1,0 +1,208 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">-->
+    <link rel="stylesheet" href ="static/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&family=Noto+Serif&family=Nunito+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Varsity</title>
+</head>
+<body>
+    <!--navbar-->
+    <nav class="navbar">
+        <h2 class="navbar-logo"><a href="#">Varsity</a></h2>
+        <div class="navbar-menu">
+            <a href="internship.html">Cтажировки</a>
+            <a href="#blog">Публикации</a>
+            <a href="registration.html">Вход/Регистрация</a>
+        </div>
+        <div class="menu-toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+    <!--header-->
+    <header>
+        <h1 class="header-title"> 
+            Найди свою<br><span> Стажировку</span><br>Легко </h1>
+    </header>
+    <div class="search-wrapper">
+        <div class="search-box">
+            <div class="search-card">
+                <input class="search-input" type="text" placeholder="Название должности или ключевые слова"> 
+                <button class="search-button">Поиск</button>
+            </div>
+        </div> 
+    </div>
+
+<div class="filter-box">
+    <div class=   "filter-dropdown">
+        <select class="filter-select" id="job-level" name="job-level">
+            <option value="default">График работы</option>
+            <option value="full-time">Полный день</option>
+            <option value="flexible">Гибкий график</option>
+            <option value="shift">Сменный график</option>
+         </select>
+        <select class="filter-select" name="industry">
+              <option value="">Все отрасли</option>
+              <option value="1">IT, Интернет, связь, телеком</option>
+              <option value="2">Транспорт, логистика</option>
+              <option value="3">Торговля, продажи</option>
+              <option value="4">Финансы, банки, страхование</option>
+              <option value="5">Медицина, фармацевтика</option>
+              <option value="6">Образование, наука</option>
+              <option value="7">Туризм, рестораны</option>
+              <option value="7">Дизайн, творчество</option>
+              <option value="8">Спорт, фитнес, салоны красоты</option>
+              <option value="9">Реклама, маркетинг, PR</option>
+              <option value="10">Юриспруденция, право</option>
+        </select>
+        <select class="filter-select" id="employment" name="employment">
+            <option value="default">График работы</option>
+            <option value="full-time">Полный день</option>
+            <option value="flexible">Гибкий график</option>
+            <option value="shift">Сменный график</option>
+          </select>
+         <select class="filter-select" id="location" name="location">
+            <option>Местоположение</option>
+            <option value="remote">Удаленная</option>
+            <option value="usa">США</option> 
+            <option value="uk">Великобритания</option>
+            <option value="france">Франция</option>
+            <option value="germany">Германия</option>
+            <option value="italy">Италия</option>
+            <option value="spain">Испания</option>
+            <option value="china">Китай</option>
+            <option value="india">Индия</option>
+            <option value="japan">Япония</option>
+            <option value="south-korea">Южная Корея</option>
+        </select>
+        <select class="filter-select" id="education" name="education">
+            <option value="default">Образование</option>
+            <option value="high-school">Старшая школа</option>
+            <option value="bachelor">Степень бакалавра</option>
+            <option value="master">Степень магистра</option>
+         </select>
+    </div>
+    <!--job listing-->
+    <section class="job-list">
+        <div class="job-card">
+            <div class="job-name">
+                <img class="job-profile" src="img/com-logo-1.jpg">
+                <div class="job-detail">
+                    <h4>TechCom</h4>
+                    <h3>Инженер</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit</p>
+                </div>
+            </div>
+            <div class="job-label">
+                <a class="label-a" href="#">HTML</a>
+                <a class="label-b" href="#">CSS</a>
+                <a class="label-c" href="#">JS</a>
+            </div>
+            <div class="job-posted">
+                 5 минут назад
+            </div>
+        </div>
+        <button class="job-more">Узнать больше</button>
+</div>
+
+    <!--join-->
+    <section class="join"> 
+        <div class="join-detail">
+        <h1 class="section-title"> Шагай вместе с нами </h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro, saepe id? Iure ipsa, praesentium id voluptatum quibusdam nisi dicta iste dolores magni sit repellendus ab ea dignissimos ipsam, totam est.</p>
+        </div>
+        <button class="join-button">Join now </button>
+    </section>
+
+
+    <!-- 1-->
+    <section class="featured" id="companies">
+        <h1 class="section-title">Компании</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente veniam error aut velit id itaque inventore sit tempora ipsum dolorem, vero officia voluptates beatae, saepe iure quo voluptate, accusantium sint.</p>
+        <div class="featured-wrapper">
+            <div class="featured-card">
+                <img class="featured-image" src="img/com-logo-2.jpg">
+                <p>Ebay</p>
+                <button class="featured-button">View 2 jobs</button>
+            </div>
+        </div>
+    </section>
+
+    <!---->
+     <section class="blog" id="blog">
+        <h1 class="section-title"> Публикации</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, laboriosam.</p>
+        <div class="blog-wrapper">
+            <div class="blog-card">
+                <img class="blog-image" src="img/com-logo-4.jpg">
+                <div class="blog-detail">
+                    <span>11 апрель 2023</span>
+                    <h4>How to enjoy your work!</h4>
+                    <p>Lorem ipsum dolor sit amet consect.</p>
+                    <hr class="divider">
+                    <a href="#" class="blog-more">Читать больше</a>
+                </div>
+            </div>
+            <div class="blog-card">
+                <img class="blog-image" src="img/com-logo-5.jpg">
+                <div class="blog-detail">
+                    <span>11 апрель 2023</span>
+                    <h4>How to enjoy your work!</h4>
+                    <p>Lorem ipsum dolor sit amet consect.</p>
+                    <hr class="divider">
+                    <a href="#" class="blog-more">Читать больше</a>
+                </div>
+            </div>
+        </div>
+     </section>
+
+
+     <!--footer-->
+     <footer>
+        <div class="footer-wrapper">
+            <h3>Varsity</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="social-media">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="footer-wrapper">
+            <h4>Explore</h4>
+            <a href="#">Top Companies</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Careers</a>
+        </div>
+        <div class="footer-wrapper"> 
+            <h4>About</h4>
+            <a href="#">FAQ</a>
+            <a href="#">Get Inspired</a>
+            <a href="#">Blog</a>
+        </div>
+        <div class="footer-wrapper">
+            <h4>Support</h4>
+            <a href="#">Customer Service</a>
+            <a href="#">Trust Service</a>
+            <a href="#">Partnership</a>
+        </div>
+        <div class="footer-wrapper">
+            <h4>Community</h4>
+            <a href="#">Community</a>
+            <a href="#">Invite a Friend</a>
+            <a href="#">Event</a>
+        </div>
+     </footer>
+
+     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+     <script src="js/app.js"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+</body>
+</html>
